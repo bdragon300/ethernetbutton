@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1386702845 source:/home/gosha/proj/ethernetbutton/firmware/ethernetbutton/counter.c
+	"counter.h"
+
+1301752308 /home/gosha/proj/ethernetbutton/firmware/ethernetbutton/counter.h
+	<avr/interrupt.h>
+
+1390208077 source:/home/gosha/proj/ethernetbutton/firmware/ethernetbutton/enc28j60.c
+	"enc28j60.h"
+
+1390062709 /home/gosha/proj/ethernetbutton/firmware/ethernetbutton/enc28j60.h
+	<avr/io.h>
+	<util/delay.h>
+
+1386703570 source:/home/gosha/proj/ethernetbutton/firmware/ethernetbutton/lan.c
+	"lan.h"
+
+1388174972 /home/gosha/proj/ethernetbutton/firmware/ethernetbutton/lan.h
+	<string.h>
+	"enc28j60.h"
+	"counter.h"
+
+1392321321 source:/home/gosha/proj/ethernetbutton/firmware/ethernetbutton/main.c
+	<avr/io.h>
+	<avr/eeprom.h>
+	<avr/interrupt.h>
+	<string.h>
+	"enc28j60.h"
+

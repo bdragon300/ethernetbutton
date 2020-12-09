@@ -1,0 +1,87 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Пн 04 ноя 2013 15:42:26
+
+#Cmp ( порядок = Обозначение )
+-| C1         0.33uF      
+| C2         10uF        
+| C3         10nF        
+| C4         10uF        
+| C5         10nF        
+| C6         16p         
+| C7         16p         
+| C8         1nF 1KV     
+-| C9         100nF       
+-| C10        100nF       
+| IC1        ATTINY2313-S
+-| L1         100uH       
+-| P1         PWR         
+-| P2         CNT-RJ45    
+-| P3         PROG_MODE   
+-| P4         ISP Prog    
+-| P5         LEDS        
+-| P6         BTNS        
+| Q1         MC33269DT   
+| R1         150         
+| R2         150         
+| R3         10K         
+-| R4         1K          
+-| R5         1K          
+| R6         1K          
+| R7         10K         
+-| R8         50          
+-| R9         50          
+-| R10        50          
+-| R11        50          
+| R12        2K 1%       
+| R13        75          
+| R14        75          
+| R15        75          
+| R16        75          
+| T1         H1102NL     
+| U1         ENC28J60    
+| X1         25MHz
+-замок и кнопка       
+-2 лэда - красный и зеленый, 5мм, 3.3в
+#End Cmp
+
+#Cmp ( порядок = Значение )
+| 0.33uF       C1        
+| 100nF        C9        
+| 100nF        C10       
+| 100uH        L1        
+| 10K          R3        
+| 10K          R7        
+| 10nF         C3        
+| 10nF         C5        
+| 10uF         C2        
+| 10uF         C4        
+| 150          R1        
+| 150          R2        
+| 16p          C6        
+| 16p          C7        
+| 1K           R4        
+| 1K           R5        
+| 1K           R6        
+| 1nF 1KV      C8        
+| 25MHz        X1        
+| 2K 1%        R12       
+| 50           R8        
+| 50           R9        
+| 50           R10       
+| 50           R11       
+| 75           R13       
+| 75           R14       
+| 75           R15       
+| 75           R16       
+| ATTINY2313-S IC1       
+| BTNS         P6        
+| CNT-RJ45     P2        
+| ENC28J60     U1        
+| H1102NL      T1        
+| ISP Prog     P4        
+| LEDS         P5        
+| MC33269DT    Q1        
+| PROG_MODE    P3        
+| PWR          P1        
+#End Cmp
+
+#End List
